@@ -1,3 +1,11 @@
+## v0.3.3 (2023-05-19)
+
+### Fix
+
+- added images to Stress Management
+- navbar test
+- testing navbar
+
 ## v0.3.2 (2023-05-19)
 
 ### Fix
