@@ -1,3 +1,9 @@
+## v0.3.0 (2023-05-19)
+
+### Feat
+
+- Added Stress Management
+
 ## v0.2.1 (2023-05-19)
 
 ### Fix
