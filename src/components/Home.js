@@ -11,7 +11,7 @@ const Home = () => {
         <div className="navbar-logo">Serenova</div>
         <div className="navbar-links">
           <a href="/MoodTracker" className="navbar-link">Mood Tracking</a>
-          <a href="#" className="navbar-link">Stress Management</a>
+          <a href="/StressManagement" className="navbar-link">Stress Management</a>
           <a href="#" className="navbar-link">Recommendations</a>
           <a href="#" className="navbar-link">Community</a>
           <a href="#" className="navbar-link">Resources</a>
