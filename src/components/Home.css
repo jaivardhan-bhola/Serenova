@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Sora', sans-serif;
+  background-color: #aee1f5;
+  color: #1b4965;
+}
+
+.home-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0px;
+  text-align: center;
+}
+
+.home-title {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  animation: slideUp 1s ease-in-out;
+}
+
+@keyframes slideUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+.home-description {
+  font-size: 18px;
+  margin-bottom: 20px;
+  animation: slideUp 1s ease-in-out;
+}
+
+.home-content {
+  max-width: 800px;
+}
+
+.navbar {
+  position: fixed;
+  top:0;
+  left:0;
+  width: 99%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 20px;
+    background-color: #fff;
+    color: #1b4965;
+    font-family: 'Sora', sans-serif;
+    font-size: 16px;
+  }
+  
+  .navbar-logo {
+    font-weight: 550;
+    font-size: 40px;
+    
+  }
+  
+  .navbar-links {
+    display: flex;
+  }
+  
+  .navbar-links a {
+    margin-right: 20px;
+    color: #1b4965;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .navbar-links a:hover {
+    color: #000;
+  }
+  .logo{
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .get-started-button {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .get-started-button {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-image: linear-gradient(135deg, #92fede 0%, #545eea 100%);
+    box-shadow: 0 20px 30px -6px rgba(97, 130, 238, 0.5);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1b4965;
+    text-decoration: none;
+  }
+  
+  .get-started-button:hover {
+    transform: translateY(3px);
+    box-shadow: none;
+  }
+  
+  .get-started-button:active {
+    opacity: 0.5;
+  }  

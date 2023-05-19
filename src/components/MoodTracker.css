@@ -1,0 +1,174 @@
+:root {
+  --primary-color: #1b4965;
+  --background-color: #aee1f5;
+}
+
+body {
+  font-family: 'Sora', sans-serif;
+  background-color: var(--background-color);
+  padding: 20px;
+}
+
+
+
+.mood-tracker {
+  max-width: auto;
+  margin: 50px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+input[type='text'],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #09557e; /* Darker shade of blue */
+}
+
+.mood-options {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.mood-option {
+  font-size: 24px;
+  line-height: 1;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.mood-option.selected {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.notes textarea {
+  height: 100px;
+  font-family: 'Sora', sans-serif;
+  width: 95%;
+  padding: 10px;
+}
+
+.mood-history {
+  margin-top: 40px;
+}
+
+.mood-entry {
+  background-color: var(--background-color);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.mood-entry p {
+  color: var(--primary-color);
+  margin: 5px 0;
+}
+
+.mood-entry p:first-child {
+  font-weight: bold;
+}
+
+.navbar {
+  position: fixed;
+  top:0;
+  left:0;
+  width: 99%; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 0 20px;
+  background-color: #fff;
+  color: #1b4965;
+  font-family: 'Sora', sans-serif;
+  font-size: 16px;
+}
+
+.navbar-logo {
+  font-weight: 500;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-links a {
+  margin-right: 20px;
+  color: #1b4965;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar-links a:hover {
+  color: #000;
+}
+.submit-button {
+  transition: all 0.3s ease-in-out;
+}
+
+.submit-button {
+  font-family: 'Sora', sans-serif;
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  background-image: linear-gradient(135deg, #92fede 0%, #545eea 100%);
+  box-shadow: 0 20px 30px -6px rgba(97, 130, 238, 0.5);
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1b4965;
+  text-decoration: none;
+}
+
+.submit-button:hover {
+  transform: translateY(3px);
+  box-shadow: none;
+}
+
+.submit-button:active {
+  opacity: 0.5;
+} 
