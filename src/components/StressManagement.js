@@ -71,7 +71,7 @@ const StressManagement = () => {
         <h1 className="navbar-logo">Serenova</h1>
         <div className="navbar-links">
             <Link to="/" className="navbar-link">Home</Link>
-            <Link to="/Login.js" className="navbar-link">Login</Link>
+            <Link to="/Login" className="navbar-link">Login</Link>
             <Link to ="/MoodTracker" className="navbar-link">Mood Tracker</Link>
             <Link to ="/Recommendations" className="navbar-link">Recommendations</Link>
             <Link to ="/Community" className="navbar-link">Community</Link>

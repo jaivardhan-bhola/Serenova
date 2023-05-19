@@ -10,8 +10,8 @@ const Home = () => {
         
         <div className="navbar-logo">Serenova</div>
         <div className="navbar-links">
-          <a href="/MoodTracker.js" className="navbar-link">Mood Tracking</a>
-          <a href="/StressManagement.js" className="navbar-link">Stress Management</a>
+          <a href="/MoodTracker" className="navbar-link">Mood Tracking</a>
+          <a href="/StressManagement" className="navbar-link">Stress Management</a>
           <a href="#" className="navbar-link">Recommendations</a>
           <a href="#" className="navbar-link">Community</a>
           <a href="#" className="navbar-link">Resources</a>
