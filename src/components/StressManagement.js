@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import './StressManagement.css';
 import { Link } from 'react-router-dom';
+import Breathing from '../assets/Breathing.png';
+import PMR from '../assets/PMR.png';
+import Exercise from '../assets/Exercise.png';
+import Music from '../assets/Music.png';
 
 const StressManagement = () => {
   const recommendationCategories = [
@@ -131,6 +135,7 @@ const StressManagement = () => {
       )}
       <div className="blog-post">
         <h2>Deep Breathing Exercises</h2>
+        <img src={Breathing} alt="Breathing" class="image"/>
         <p><h3>Box Breathing Technique:</h3>
 <ui>
 <li>Inhale slowly and deeply through your nose for a count of 4. </li>
@@ -163,6 +168,7 @@ const StressManagement = () => {
 
       <div className="blog-post">
         <h2>Progressive Muscle Relaxation</h2>
+        <img src={PMR} alt="PMR" class="image"/>
         <p>Progressive Muscle Relaxation (PMR) is a relaxation technique that involves tensing and releasing different muscle groups in your body to achieve a state of deep relaxation. Here are step-by-step instructions for practicing Progressive Muscle Relaxation:
 <li>Find a comfortable and quiet space where you can relax without distractions. You can sit in a chair or lie down on a comfortable surface, such as a mat or bed. </li>
 
@@ -196,11 +202,13 @@ Practicing Progressive Muscle Relaxation regularly can help you become more awar
 
       <div className="blog-post">
         <h2>Mindfulness Exercises</h2>
+        <img src={Exercise} alt="Exercise" class="image"/>
         <p>Integrate mindfulness exercises, such as body scans or mindful breathing, to help users cultivate present-moment awareness, reduce stress, and enhance overall well-being.</p>
       </div>
 
       <div className="blog-post">
         <h2>Stress Relief Tools</h2>
+        <img src={Music} alt="Music" class="image"/>
         <p>Here are some sounds to release stress:</p>
             <br/> 
             <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWXe9gFZP0gtP?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
