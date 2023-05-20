@@ -9,7 +9,6 @@ import MoodTracker from './components/MoodTracker';
 import StressManagement from './components/StressManagement';
 
 import Community from './components/Community';
-import ProgressTracker from './components/ProgressTracker';
 import Resources from './components/Resources';
 import MentalHealthAssessment from './components/MentalHealthAssessment';
 
@@ -24,7 +23,6 @@ const App = () => {
         <Route path="/stressmanagement" element={<StressManagement />} />
 
         <Route path="/community" element={<Community />} />
-        <Route path="/progresstracker" element={<ProgressTracker />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/assessment" element={<MentalHealthAssessment />} />
       </Routes>
