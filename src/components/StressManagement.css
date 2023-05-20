@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
 :root {
   --primary-color: #1b4965;
   --secondary-color: #333;
@@ -5,7 +7,7 @@
 }
 
 body {
-  font-family: 'Sora', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   background-color: var(--background-color);
   padding: 20px;
 }
@@ -135,7 +137,7 @@ input[type='text'] {
 }
 
 .recommendation-button {
-  font-family: 'Sora', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   width: 300px;
   height: 50px;
   border-radius: 50px;
@@ -145,7 +147,7 @@ input[type='text'] {
   cursor: pointer;
   border: none;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -174,12 +176,12 @@ input[type='text'] {
   padding: 0 20px;
   background-color: #fff;
   color: #1b4965;
-  font-family: 'Sora', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 16px;
 }
 
 .navbar-logo {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 40px;
   text-decoration: none;
 }
@@ -192,7 +194,7 @@ input[type='text'] {
   margin-right: 20px;
   color: #1b4965;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .navbar-links a:hover {
