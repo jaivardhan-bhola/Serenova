@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './StressManagement.css';
 import { Link } from 'react-router-dom';
 import Breathing from '../assets/Breathing.png';
-import PMR from '../assets/PMR.png';
 import Exercise from '../assets/Exercise.png';
 import Music from '../assets/Music.png';
 
@@ -14,9 +13,9 @@ const StressManagement = () => {
   ];
 
   const [userData, setUserData] = useState({
-    stressLevel: 5, // Default stress level
-    preferredTechniques: [], // Default preferred techniques
-    triggers: [], // Default triggers
+    stressLevel: 5,
+    preferredTechniques: [],
+    triggers: [],
   });
 
   const [recommendations, setRecommendations] = useState([]);
