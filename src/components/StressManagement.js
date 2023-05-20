@@ -77,7 +77,6 @@ const StressManagement = () => {
             <Link to="/" className="navbar-link">Home</Link>
             <Link to="/Login" className="navbar-link">Login</Link>
             <Link to ="/MoodTracker" className="navbar-link">Mood Tracker</Link>
-            <Link to ="/Recommendations" className="navbar-link">Recommendations</Link>
             <Link to ="/Community" className="navbar-link">Community</Link>
             <Link to ="/Resources" className="navbar-link">Resources</Link>
             <Link to ="/Assessments" className="navbar-link">Assessments</Link>
@@ -136,74 +135,52 @@ const StressManagement = () => {
       <div className="blog-post">
         <h2>Deep Breathing Exercises</h2>
         <img src={Breathing} alt="Breathing" class="image"/>
-        <p><h3>Box Breathing Technique:</h3>
-<ui>
+        <h3>Box Breathing Technique:</h3>
+        <br/>
+        <iframe width="560" height="315" class="youtube" src="https://www.youtube.com/embed/3ItY2FedCi8?start=70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <br/>
+<ul>
 <li>Inhale slowly and deeply through your nose for a count of 4. </li>
 <li>Hold your breath for a count of 4.</li>
 <li>Exhale slowly and completely through your mouth for a count of 4.</li>
 <li>Hold your breath for a count of 4.</li>
 <li>Repeat this cycle for several minutes, focusing on the rhythm and depth of your breath.</li>
-</ui>
+</ul>
 <h3>4-7-8 Breathing Technique:</h3>
-<ui>
+<br/>
+<iframe width="560" height="315" class="youtube" src="https://www.youtube.com/embed/kpSkoXRrZnE?start=16" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br/>
+<ul>
 <li>Inhale slowly and deeply through your nose to a mental count of 4. </li>
 <li>Hold your breath for a count of 7. </li>
 <li>Exhale slowly and completely through your mouth to a count of 8. </li>
 <li>Repeat this cycle for several minutes, allowing your breath to become even and relaxed.</li>
-</ui>
-<h3>Diaphragmatic Breathing Technique: </h3>
-<ui>
-<li>Place one hand on your chest and the other on your abdomen. </li>
-<li>Take a slow, deep breath in through your nose, allowing your abdomen to rise while keeping your chest still. </li>
-<li>Exhale slowly through your mouth, feeling your abdomen lower. </li>
-<li>Continue breathing deeply and focusing on the movement of your abdomen. </li>
-</ui>
-<h3>Counted Breath Technique: </h3>
-
-<li>Inhale slowly and deeply through your nose for a count of 4. </li>
-<li>Hold your breath for a count of 2. </li>
-<li>Exhale slowly and completely through your mouth for a count of 6. </li>
-<li>Repeat this cycle, adjusting the counts to find a comfortable and calming rhythm. </li></p>
-      </div>
-
-      <div className="blog-post">
-        <h2>Progressive Muscle Relaxation</h2>
-        <img src={PMR} alt="PMR" class="image"/>
-        <p>Progressive Muscle Relaxation (PMR) is a relaxation technique that involves tensing and releasing different muscle groups in your body to achieve a state of deep relaxation. Here are step-by-step instructions for practicing Progressive Muscle Relaxation:
-<li>Find a comfortable and quiet space where you can relax without distractions. You can sit in a chair or lie down on a comfortable surface, such as a mat or bed. </li>
-
-<li>Close your eyes and take a few slow, deep breaths to help calm your mind and body. </li>
-
-<li>Start with your hands. Clench your fists tightly, squeezing all the muscles in your hands and forearms. Hold the tension for a few seconds, paying attention to the sensation of tightness. </li>
-
-<li>Release the tension in your hands and forearms all at once, allowing your muscles to completely relax. Pay attention to the feeling of relaxation and the contrast between tension and relaxation. </li>
-
-<li>Move on to your biceps and upper arms. Take a deep breath in, and as you exhale, tense your biceps by flexing your muscles. Hold the tension for a few seconds, noticing the sensation of tightness. </li>
-
-<li>Release the tension in your biceps and upper arms, letting the muscles relax completely. Focus on the feeling of relaxation spreading through your arms. </li>
-
-<li>Continue this process, systematically tensing and releasing muscle groups throughout your body. Here's a suggested sequence: </li>
-<p>
-&emsp;- Shoulders: Raise your shoulders towards your ears, tensing the muscles. Hold for a few seconds, then release and let your shoulders drop, feeling the relaxation. <br />
-
-&emsp;- Face: Scrunch up your face by squeezing your eyes shut, wrinkling your nose, and clenching your jaw. Hold the tension briefly, then release, allowing your face to relax and your features to soften. <br />
-
-&emsp;- Chest and abdomen: Take a deep breath in, filling your lungs and expanding your chest and abdomen. Hold the breath and tension for a few seconds, then exhale and release, letting your breath return to a normal rhythm. <br />
-
-&emsp;- Thighs: Tighten the muscles in your thighs by pressing your knees together and squeezing your leg muscles. Hold the tension for a few seconds, then release, feeling the heaviness and relaxation in your thighs. <br />
-
-&emsp;- Calves and feet: Point your toes downward, tensing the muscles in your calves and feet. Hold the tension for a few seconds, then release, allowing your feet to relax and your toes to uncurl. <br />
-<li>After going through the entire sequence, take a few moments to focus on the overall sensation of relaxation in your body. Notice any areas that may still be holding tension and consciously release those muscles. </li>
-</p>
-<li>Finally, take a few more deep breaths, gradually becoming aware of your surroundings. When you're ready, open your eyes and slowly return to your normal activities. </li>
-
-Practicing Progressive Muscle Relaxation regularly can help you become more aware of muscle tension and promote relaxation throughout your body. As you become familiar with the technique, you can modify and customize the sequence to fit your needs and preferences.</p>
+</ul>
       </div>
 
       <div className="blog-post">
         <h2>Mindfulness Exercises</h2>
         <img src={Exercise} alt="Exercise" class="image"/>
-        <p>Integrate mindfulness exercises, such as body scans or mindful breathing, to help users cultivate present-moment awareness, reduce stress, and enhance overall well-being.</p>
+<h3>Body Scan:</h3>
+The body scan is a mindfulness practice that involves systematically bringing attention to different parts of the body, promoting relaxation and body awareness.
+<ul>
+<li>Find a comfortable position, either sitting or lying down. Close your eyes or lower their gaze.
+Bring your attention to your breath, taking a few deep breaths to settle into the present moment.</li>
+<li>Shift your attention to the sensations in your body. Starting from the top of the head, slowly move down through each body part, bringing gentle awareness to the sensations present. </li>
+<li>Notice any areas of tension, discomfort, or relaxation without judgment or the need to change anything. </li>
+<li>As you scan each body part, Observe the physical sensations, such as warmth, tingling, or pressure, and to let go of any tension you may encounter.</li>
+<li>Spend a few moments with your attention on each body part before moving on to the next. You can also choose to linger longer on areas that require extra attention.</li>
+<li>Conclude the body scan by bringing your attention back to your breath, allowing yourself to experience a sense of grounding and relaxation in their whole body. </li>
+</ul>
+<h3>Mindful Breathing:</h3>
+Mindful breathing is a fundamental mindfulness practice that involves focusing attention on the breath, cultivating awareness and relaxation.
+<ul>
+<li>
+Find a comfortable posture, either sitting or lying down, close your eyes or soften your gaze. </li>
+<li>Bring your attention to the natural flow of your breath. Notice the sensations of the breath as it enters and leaves your body.</li>
+<li>Focus your attention on the sensations of the breath at a specific anchor point, such as the nostrils, chest, or abdomen. Observe the rising and falling sensation with curiosity and without trying to change anything. </li>
+<li>Explore the qualities of the breath, such as its temperature, depth, or rhythm, and to observe any sensations or thoughts that arise without getting caught up in them. </li>
+<li>Conclude the mindful breathing exercise by taking a few deep breaths and to bring your attention back to your surroundings, opening your eyes when ready. </li>
+</ul>
       </div>
 
       <div className="blog-post">

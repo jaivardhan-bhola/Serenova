@@ -36,7 +36,7 @@ const MoodTracker = () => {
           <Link to="/" className="navbar-link">Home</Link>
           <Link to="/Login" className="navbar-link">Login</Link>
           <Link to ="/StressManagement" className="navbar-link">Stress Management</Link>
-          <Link to = "/Recommendations" className="navbar-link">Recommendations</Link>
+
           <Link to = "/Community" className="navbar-link">Community</Link>
           <Link to = "/Resources" className="navbar-link">Resources</Link>
           <Link to = "/MentalHealthAssessment" className="navbar-link">Assessments</Link>

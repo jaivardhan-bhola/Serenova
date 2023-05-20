@@ -7,7 +7,7 @@ import Registration from './components/Registration';
 import Login from './components/Login';
 import MoodTracker from './components/MoodTracker';
 import StressManagement from './components/StressManagement';
-import Recommendations from './components/Recommendations';
+
 import Community from './components/Community';
 import ProgressTracker from './components/ProgressTracker';
 import Resources from './components/Resources';
@@ -22,7 +22,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/moodtracker" element={<MoodTracker />} />
         <Route path="/stressmanagement" element={<StressManagement />} />
-        <Route path="/recommendations" element={<Recommendations />} />
+
         <Route path="/community" element={<Community />} />
         <Route path="/progresstracker" element={<ProgressTracker />} />
         <Route path="/resources" element={<Resources />} />
