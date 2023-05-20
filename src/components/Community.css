@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+:root {
+  --primary-color: #1b4965;
+  --secondary-color: #333;
+  --background-color: #aee1f5;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--background-color);
+  padding: 20px;
+}
+
+.community {
+  max-width: 1000px;
+  margin: 50px auto;
+  background-color: #dcfdd8;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  animation: fade-in 0.5s ease-in-out;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h2 {
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 28px;
+  animation: fade-in 0.5s ease-in-out;
+}
+
+h3 {
+  color: var(--primary-color);
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.post-form {
+  margin-bottom: 20px;
+  animation: slide-up 0.5s ease-in-out;
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.post-form input[type='number'],
+.post-form input[type='text'],
+.post-form textarea {
+  width: 70%;
+  padding: 10px;
+  border: 2px solid var(--primary-color);
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.comment-form {
+    margin-bottom: 20px;
+    animation: slide-up 0.5s ease-in-out;
+  }
+  
+  @keyframes slide-up {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .comment-form input[type='number'],
+  .comment-form input[type='text'],
+  .comment-form textarea {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid var(--primary-color);
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+.post-list {
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.post {
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 4, 255, 0.26);
+  animation: fade-in 0.5s ease-in-out;
+}
+
+.post h3 {
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.post p {
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.comments {
+    margin-top: 20px;
+    padding-left: 20px;
+    border-left: 2px solid var(--primary-color);
+  }
+  
+  .comment {
+    margin-bottom: 10px;
+  }
+  
+  .comment-author {
+    font-weight: bold;
+    color: var(--secondary-color);
+  }
+  
+  .comment-content {
+    color: var(--secondary-color);
+  }
+  
+
+.animation-pulse {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.submit-button {
+  transition: all 0.3s ease-in-out;
+  font-family: 'DM Sans', sans-serif;
+  width: 120px;
+  height: 50px;
+  border-radius: 50px;
+  background-image: linear-gradient(135deg, #92fede 0%, #545eea 100%);
+  box-shadow: 0 20px 30px -6px rgba(97, 130, 238, 0.5);
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1b4965;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+.submit-button:hover {
+  transform: translateY(3px);
+  box-shadow: none;
+}
+
+.submit-button:active {
+  opacity: 0.5;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 0 20px;
+  background-color: #fff;
+  color: #1b4965;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  z-index: 999;
+}
+
+.navbar-logo {
+  font-weight: 600;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-links a {
+  margin-right: 20px;
+  color: #1b4965;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.navbar-links a:hover {
+  color: #000;
+}

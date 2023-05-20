@@ -1,5 +1,5 @@
 let loggedIn = false;
-let name = '';
+let name = 'Jaivardhan Bhola';
 
 export let setLoggedIn = (value) => {
     loggedIn = value;
