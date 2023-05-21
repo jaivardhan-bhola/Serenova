@@ -7,7 +7,7 @@ import MoodTracker from './components/MoodTracker';
 import StressManagement from './components/StressManagement';
 import Community from './components/Community';
 import Resources from './components/Resources';
-import MentalHealthAssessment from './components/Assessments';
+import Assessments from './components/Assessments';
 
 const App = () => {
   return (
@@ -20,7 +20,7 @@ const App = () => {
         <Route path="/stressmanagement" element={<StressManagement />} />
         <Route path="/community" element={<Community />} />
         <Route path="/resources" element={<Resources />} />
-        <Route path="/assessment" element={<MentalHealthAssessment />} />
+        <Route path="/Assessments" element={<Assessments />} />
       </Routes>
     </Router>
   );

@@ -26,7 +26,7 @@ const Login = () => {
 
         <>
       <div className="navbar">
-        <h1 className="navbar-logo">Serenova</h1>
+      <Link to="/" className="navbar-logo">Serenova</Link>
         <div className="navbar-links">
           <Link to="/" className="navbar-link">Home</Link>
           <Link to="/Registration" className="navbar-link">Register</Link>

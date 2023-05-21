@@ -1,20 +1,20 @@
 import React from 'react';
 import './Home.css';
 import { Link } from 'react-router-dom';
-import logo from '../assets/Meditation.png';
+import logo from '../assets/home-logo.png';
 import { loggedIn, name } from './Auth';
 const Home = () => {
   return (
     <div>
       <nav className="navbar">
         
-        <div className="navbar-logo">Serenova</div>
+      <Link to="/" className="navbar-logo">Serenova</Link>
         <div className="navbar-links">
           <a href="/MoodTracker" className="navbar-link">Mood Tracking</a>
           <a href="/StressManagement" className="navbar-link">Stress Management</a>
           <a href="/Community" className="navbar-link">Community</a>
           <a href="/Resources" className="navbar-link">Resources</a>
-          <a href="/Assesments" className="navbar-link">Assessments</a>
+          <a href="/Assessments" className="navbar-link">Assessments</a>
         </div>
       </nav>
       <div className="home-section">

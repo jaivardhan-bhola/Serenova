@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
-:root {
-  --primary-color: #1b4965;
-  --background-color: #aee1f5;
-}
-
 body {
   font-family: 'DM Sans', sans-serif;
   background-color: var(--background-color);
@@ -127,6 +122,7 @@ button:hover {
   font-weight: 600;
   font-size: 40px;
   text-decoration: none;
+  color: #1b4965;
 }
 
 .navbar-links {
