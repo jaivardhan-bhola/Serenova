@@ -7,7 +7,7 @@ import MoodTracker from './components/MoodTracker';
 import StressManagement from './components/StressManagement';
 import Community from './components/Community';
 import Resources from './components/Resources';
-import MentalHealthAssessment from './components/MentalHealthAssessment';
+import MentalHealthAssessment from './components/Assessments';
 
 const App = () => {
   return (

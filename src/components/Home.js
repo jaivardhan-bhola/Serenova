@@ -14,7 +14,7 @@ const Home = () => {
           <a href="/StressManagement" className="navbar-link">Stress Management</a>
           <a href="/Community" className="navbar-link">Community</a>
           <a href="/Resources" className="navbar-link">Resources</a>
-          <a href="#" className="navbar-link">Assessments</a>
+          <a href="/Assesments" className="navbar-link">Assessments</a>
         </div>
       </nav>
       <div className="home-section">
