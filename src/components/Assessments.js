@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Stress from '../assets/Stress.png';
+import WellBeing from '../assets/home-logo.png';
+import Resilience from '../assets/Resilience.png';
 import './Assessments.css';
 
 const Assessments = () => {
@@ -130,6 +133,7 @@ const Assessments = () => {
       <br/>
       <form className="test-form" onSubmit={handleStressTestSubmit}>
         <h2>Stress Test</h2>
+        <img src={Stress} alt="Stress" class="image"/>
         <br/>
         <div className="question">
           <label>On a scale of 1 to 10, how stressed do you feel about your job or work responsibilities?</label>
@@ -181,6 +185,7 @@ const Assessments = () => {
       <br />
       <form className="test-form" onSubmit={handleWellBeingTestSubmit}>
         <h2>Well-being Test</h2>
+        <img src={WellBeing} alt="Well-being" class="image"/>
         <div className="question">
           <label>On a scale of 1 to 10, how satisfied are you with your physical health?</label>
           <input
@@ -232,6 +237,7 @@ const Assessments = () => {
         <br />
       <form className="test-form" onSubmit={handleResilienceTestSubmit}>
         <h2>Resilience Test</h2>
+        <img src={Resilience} alt="Resilience" class="image"/>
         <br/>
         <div className="question">
           <label>On a scale of 1 to 10, how do you typically respond to challenges or setbacks in your life?</label>
