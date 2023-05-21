@@ -1,3 +1,14 @@
+## v0.5.0 (2023-05-21)
+
+### Feat
+
+- completed UI
+
+### Fix
+
+- navbar fixes
+- fixed navbar on homepage
+
 ## v0.4.1 (2023-05-20)
 
 ### Fix
