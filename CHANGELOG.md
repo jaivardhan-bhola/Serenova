@@ -1,3 +1,13 @@
+## v0.6.0 (2023-05-22)
+
+### Feat
+
+- finalised the project
+
+### Fix
+
+- changed images
+
 ## v0.5.0 (2023-05-21)
 
 ### Feat
