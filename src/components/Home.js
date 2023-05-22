@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 import { Link } from 'react-router-dom';
 import logo from '../assets/home-logo.png';
-import { loggedIn, name } from './Auth';
+
 const Home = () => {
   return (
     <div>
@@ -22,11 +22,8 @@ const Home = () => {
         <div className="home-title">
         Welcome to Serenova</div>
         <div className="home-description">Your Personalized Mental Well-being Companion <br /></div>
-        {loggedIn ? (
-            <span className="navbar-welcome">Welcome back, {name}</span>
-          ) : (
-            <Link to="/registration" className="get-started-button">Get Started</Link>
-          )}
+            <Link to="/StressManagement" className="get-started-button">Get Started</Link>
+
       </div>
 
     </div>

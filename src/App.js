@@ -1,8 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
-import Registration from './components/Registration';
-import Login from './components/Login';
 import MoodTracker from './components/MoodTracker';
 import StressManagement from './components/StressManagement';
 import Community from './components/Community';
@@ -14,8 +12,6 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/registration" element={<Registration />} />
-        <Route path="/login" element={<Login />} />
         <Route path="/moodtracker" element={<MoodTracker />} />
         <Route path="/stressmanagement" element={<StressManagement />} />
         <Route path="/community" element={<Community />} />

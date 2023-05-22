@@ -22,21 +22,28 @@ const StressManagement = () => {
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
+    let updatedValue = value;
+  
+    if (name === 'preferredTechniques' || name === 'triggers') {
+      updatedValue = value.split(',').map((item) => item.trim());
+    }
+  
     setUserData((prevState) => ({
       ...prevState,
-      [name]: value,
+      [name]: updatedValue,
     }));
   };
+  
 
   const generateRecommendations = (userData, recommendationCategories) => {
     const recommendations = [];
-
+  
     const weightSum = recommendationCategories.reduce((sum, category) => sum + category.weight, 0);
-
+  
     recommendationCategories.forEach((category) => {
       const categoryWeight = category.weight / weightSum;
       let categoryRecommendations = [];
-
+  
       if (category.category === 'Deep Breathing') {
         if (userData.stressLevel >= 5) {
           categoryRecommendations.push('Guided deep breathing exercises for relaxation');
@@ -50,20 +57,21 @@ const StressManagement = () => {
           categoryRecommendations.push('Morning walk or bike ride to relieve stress before work');
         }
       }
-      
+  
       categoryRecommendations = categoryRecommendations.map((rec) => ({
         recommendation: rec,
         weight: categoryWeight,
       }));
       recommendations.push(...categoryRecommendations);
     });
-
+  
     recommendations.sort((rec1, rec2) => rec2.weight - rec1.weight);
-
+  
     return recommendations.map((rec) => rec.recommendation);
   };
-
+  
   const handleGenerateRecommendations = () => {
+    setRecommendations([]);
     const generatedRecommendations = generateRecommendations(userData, recommendationCategories);
     setRecommendations(generatedRecommendations);
   };
@@ -74,7 +82,7 @@ const StressManagement = () => {
     <Link to="/" className="navbar-logo">Serenova</Link>
         <div className="navbar-links">
             <Link to="/" className="navbar-link">Home</Link>
-            <Link to="/Login" className="navbar-link">Login</Link>
+            
             <Link to ="/MoodTracker" className="navbar-link">Mood Tracker</Link>
             <Link to ="/Community" className="navbar-link">Community</Link>
             <Link to ="/Resources" className="navbar-link">Resources</Link>
@@ -98,8 +106,7 @@ const StressManagement = () => {
         <br />
 
         <label htmlFor="preferredTechniques">Preferred Techniques: </label>
-        <input
-          type="text"
+        <textarea
           id="preferredTechniques"
           name="preferredTechniques"
           value={userData.preferredTechniques}

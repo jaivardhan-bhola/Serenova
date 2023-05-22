@@ -113,7 +113,7 @@ const Community = () => {
     <Link to="/" className="navbar-logo">Serenova</Link>
         <div className="navbar-links">
             <Link to="/" className="navbar-link">Home</Link>
-            <Link to="/Login" className="navbar-link">Login</Link>
+            
             <Link to ="/MoodTracker" className="navbar-link">Mood Tracker</Link>
             <Link to ="/StressManagement" className="navbar-link">Stress Management</Link>
             <Link to ="/Resources" className="navbar-link">Resources</Link>
